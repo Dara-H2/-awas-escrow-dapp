@@ -1,10 +1,15 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;git 
+pragma solidity ^0.8.21;
 
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Escrow is Ownable, ReentrancyGuard {
+    constructor() Ownable(msg.sender){
+
+    }
+
     struct Deposit {
         uint256 amount;
         address payer;
