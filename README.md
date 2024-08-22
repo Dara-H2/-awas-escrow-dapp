@@ -1,6 +1,5 @@
 Here is the formatted version of the README file with proper markdown syntax. You can copy and paste it directly into your `README.md` file.
 
-```markdown
 # AWAS Escrow DApp
 
 This project is a decentralized escrow application built on Ethereum using Solidity smart contracts. It allows users to securely deposit funds, which are held in escrow until a predefined release date. The application uses the Truffle framework for development and testing, and integrates OpenZeppelin contracts for security.
